@@ -1,0 +1,20 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL="https://github.com/MNight-Soon/LootChestRespawner/issues"
+
+[[mods]]
+modId="lootchestrespawner"
+version="0.1.0"
+displayName="Loot Chest Respawner"
+description="Respawns loot in regular chests after a configurable cooldown, using vanilla loot tables and optional Lootr compatibility."
+author="MNight-Soon"
+credits="Forge community, Lootr mod authors"
+logoFile="logo.png"
+
+[[dependencies.lootchestrespawner]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
